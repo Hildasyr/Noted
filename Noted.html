@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noted</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background-color: #e9fbe5;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(90deg, #b7e4c7 0%, #74c69d 100%);
+            color: #22543d;
+            padding: 32px 0 16px 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(34, 84, 61, 0.08);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        main {
+            max-width: 900px;
+            margin: 32px auto;
+            padding: 24px;
+            background: #ffffffcc;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(34, 84, 61, 0.08);
+        }
+        section {
+            margin-bottom: 32px;
+        }
+        h2 {
+            color: #40916c;
+            border-bottom: 2px solid #b7e4c7;
+            padding-bottom: 6px;
+            margin-bottom: 18px;
+        }
+        h3 {
+            color: #1b4332;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        p, a {
+            font-size: 1.05rem;
+        }
+        a {
+            color: #40916c;
+            text-decoration: none;
+            border-bottom: 1px dashed #40916c;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #1b4332;
+            border-bottom: 1px solid #1b4332;
+        }
+        .sub-section {
+            background: #d8f3dc;
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(64, 145, 108, 0.07);
+        }
+        .icon {
+            font-size: 1.2em;
+            color: #40916c;
+        }
+        @media (max-width: 600px) {
+            main {
+                padding: 8px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-book-open icon"></i> Welcome to Noted</h1>
+    </header>
+    <main>
+        <section id="Alevel">
+            <h2><i class="fa-solid fa-graduation-cap icon"></i> Alevel</h2>
+            <div class="sub-section" id="Alevel-Economics">
+                <h3><i class="fa-solid fa-chart-line icon"></i> Economics</h3>
+                <ul style="list-style:none; padding-left:0;">
+                    <li>
+                        <a href="microeconomics detailed notes.html" target="_blank">
+                            <i class="fa-solid fa-coins icon"></i> Microeconomics Notes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="economics_macro.html" target="_blank">
+                            <i class="fa-solid fa-globe icon"></i> Macroeconomics Notes
+                        </a>
+                    </li>
+                </ul>
+                </ul>
+            </div>
+            <div class="sub-section" id="Alevel-Maths">
+                <h3><i class="fa-solid fa-square-root-variable icon"></i> Maths</h3>
+                <p>Your physics notes will appear here.</p>
+            </div>
+            <div class="sub-section" id="Alevel-Further-Maths">
+                <h3><i class="fa-solid fa-calculator icon"></i> Further Maths</h3>
+                <p>Your chemistry notes will appear here.</p>
+            </div>
+            <div class="sub-section" id="Alevel-Psychology">
+                <h3><i class="fa-solid fa-brain icon"></i> Psychology</h3>
+                <p>Your chemistry notes will appear here.</p>
+            </div>
+        </section>
+        <section id="GCSE">
+            <h2><i class="fa-solid fa-pencil icon"></i> GCSE</h2>
+            <div class="sub-section" id="GCSE-Biology">
+                <h3><i class="fa-solid fa-dna icon"></i> Biology</h3>
+                <p>Your homework tasks will appear here.</p>
+            </div>
+            <div class="sub-section" id="GCSE-Chemistry">
+                <h3><i class="fa-solid fa-flask icon"></i> Chemistry</h3>
+                <p>Your project tasks will appear here.</p>
+            </div>
+            <div class="sub-section" id="GCSE-Physics">
+                <h3><i class="fa-solid fa-atom icon"></i> Physics</h3>
+                <p>Your revision tasks will appear here.</p>
+            </div>
+            <div class="sub-section" id="GCSE-Maths">
+                <h3><i class="fa-solid fa-square-root-variable icon"></i> Maths</h3>
+                <a href="file:///Users/hilda_syr/Downloads/maths%20formula.pdf" target="_blank"><i class="fa-solid fa-file-pdf icon"></i> Maths formula sheet</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
